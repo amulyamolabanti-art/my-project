@@ -1,0 +1,5 @@
+steps:
+  - name: 'gcr.io/cloud-builders/gsutil'
+    args: ['ls']  # Example: just list files in Cloud Storage
+
+# Optional: you can add more steps later
